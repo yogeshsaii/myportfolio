@@ -1,0 +1,211 @@
+.navbar{
+    background-color:black;
+    height: 18%;
+    padding: 0.1%;
+}
+.namelogo{
+    width: 13%;
+
+}
+.heading{
+    background-color: rgba(254, 230, 200, 0.523);
+    height: 20%;
+    padding: 0.1%;
+   
+    
+}
+.hname{
+    
+    color: black;
+    padding-left: 43%;
+}
+.personalinfosec{
+    padding-top: 7px;
+    position: relative;
+    height:max-content ;
+    background-color: rgb(45, 25, 7);
+    display: flex;
+
+
+
+
+
+
+}.personalinfo{
+   color: aliceblue;
+   font-family:'Times New Roman', Times, serif;
+   font-size: xx-large;
+   font-weight: 100;
+   width: 60%;
+   padding: 2%;
+    
+}
+.myimage{
+
+    width: 40%;
+}.img{
+    margin-left: 15%;
+    border-radius: 20rem;
+    padding: 9%;
+    width: 75%;
+}
+.Hobbies{
+    background-color: rgb(45, 31, 16);
+    height: max-content;
+    display: flex;
+
+
+
+}.Hsport{
+    width: 33%;
+    padding-top: 1rem;
+
+}.Hnames{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 50;
+    padding-left: 20%;
+
+
+}.Hsname{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 50;
+    padding-left: 30%;
+
+
+}
+.Hmusic{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 50;
+    padding-left: 11%;
+}
+.Himg{
+    padding: 2rem;
+    border-radius: 5rem;
+    width: 89%;
+}
+
+.skills{
+
+    background-image: linear-gradient(to bottom , rgb(45, 31, 16),rgb(30, 19, 7));
+    padding: 2%;
+}
+.Snames{
+    background-image: linear-gradient();
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:20;
+    color: azure;
+    padding: 2%;
+    font-size:28px;
+
+}
+.Langicon{
+    
+    display: flex;
+
+}
+.Licons{
+    width: 20%;
+
+
+}
+.LIimg{
+
+    width:50%;
+}
+.Lname{
+    width: fit-content;
+    font-size: 150%;
+    color: azure;
+    padding-left: 23%;
+    font-size: 110%;
+
+}
+.Lname1{
+    width: fit-content;
+    font-size: 150%;
+    color: azure;
+    padding-left: 20%;
+    font-size: 110%;
+
+}
+.Lname2{
+    font-size: 150%;
+    color: azure;
+    padding-left: 12%;
+    font-size: 110%;
+}
+.Lname3{
+    font-size: 150%;
+    color: azure;
+    padding-left: 15.5%;
+    font-size: 110%;
+}
+.Lname5{
+    font-size: 150%;
+    color: azure;
+    padding-left: 19%;
+    font-size: 110%;
+}
+.PROJECTS{
+    background-image: linear-gradient(to bottom ,rgb(30, 19, 7),rgb(3, 2, 1));
+
+}
+.Pclass{
+   padding: 2%;
+
+}
+.Pnames{
+    font-size:28px;
+    color:azure;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 20;
+
+
+
+}
+.CONTACTME{
+
+    display: flex;
+}
+
+.Cnrml{
+    background-color: black;
+    width: 60%;
+    padding: 13%;
+    
+}
+.Csocial{
+    background-color: black;
+    width: 40%;
+    padding-top: 13%;
+}
+.Cnames{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:azure;
+    width: 95%;
+
+}
+.Cimg{
+    width: 13%;
+}
+
+
+
+
+
+
+/* Universal classes */
+.blue{
+
+    color: rgb(71, 174, 174);
+}
+.black{
+
+    color: black;
+}
+.link:hover{
+    color: rgb(71, 174, 174);
+}
