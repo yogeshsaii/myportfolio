@@ -1,11 +1,32 @@
 .navbar{
+    display: flex;
     background-color:black;
     height: 18%;
     padding: 0.1%;
 }
-.namelogo{
-    width: 13%;
+.logo{ 
+    width: 30%;
 
+}
+.namelogo{
+    width: 40%;
+
+}
+.navlink{
+    position: relative;
+    padding-top:5%;
+    padding-left:11%;
+    width: 70%;
+    justify-content: space-between;
+}
+.navlink a { color: rgb(0, 140, 255);
+    padding: 3.5%;
+    font-size: large;
+    width: 20%;
+
+}
+.navlink a:hover{
+    color: white;
 }
 .heading{
     background-color: rgba(254, 230, 200, 0.523);
