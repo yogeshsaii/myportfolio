@@ -77,7 +77,8 @@
     
     opacity: 1;
     width: 40%;
-}.img{
+}
+.img{
     animation-name: zoomin;
     animation-duration: 2s;
     animation-delay: 3s;
