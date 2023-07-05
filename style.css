@@ -23,10 +23,12 @@
     padding: 2.5%;
     font-size: large;
     width: 20%;
-
+    text-decoration:none;
 }
 .navlink a:hover{
     color: white;
+    text-decoration: none; 
+
 }
 .body{
     background-color: black
