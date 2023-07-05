@@ -196,6 +196,49 @@
 .LIimg2{
     width: 10%;
 }
+.work{
+  background-color: rgb(21, 13, 3);
+}
+.virtual{
+    display: flex;
+    padding: 2%;
+    grid-gap: 10px;
+    border-bottom: #fff solid;
+}
+.virtual img{
+    width: 20%;
+    height: 90%;
+    padding-top: 5%;
+}
+.virtual ul {
+    padding: 5%;
+    color: rgb(189, 190, 190);
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.virtual ul :first-child{
+    font-size: xx-large;
+}
+.webd{
+    display: flex;
+    padding: 4%;
+
+}
+.webd img{
+    width: 40%;
+    height: 70%;
+    padding-top: 4%;
+}
+.webd ul{
+    padding: 5%;
+    padding-left:8%;
+    color: rgb(189, 190, 190);
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.webd ul :first-child{
+    font-size: xx-large;
+}
 .PROJECTS{
     background-image: linear-gradient(to bottom ,rgb(30, 19, 7),rgb(3, 2, 1));
     width: calc(100/2);
@@ -296,6 +339,14 @@
 }
 .parallax3{
   background-image: url(./assets/skills.png);
+  min-height: 550px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5{
+  background-image: url(./assets/tech5.png);
   min-height: 550px; 
   background-attachment: fixed;
   background-position: center;
