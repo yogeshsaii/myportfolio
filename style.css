@@ -366,6 +366,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.parallax6{
+  background-image: url(./assets/edu3.png);
+  min-height: 550px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .parallax{
   background-image: url(./assets/tech2.png);
   min-height: 550px; 
