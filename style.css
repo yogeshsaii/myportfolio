@@ -31,7 +31,8 @@
 
 }
 .body{
-    background-color: black
+    background-color: black;
+    overflow-x:hidden ;
 }
 .heading{
     background-color: rgb(19, 14, 9);
