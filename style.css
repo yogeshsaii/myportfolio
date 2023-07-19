@@ -149,6 +149,15 @@
     width: 100%;
     height: 67%;
 }
+@media screen and (max-width:768px){
+    .Hobbies{
+        display: inline;
+        padding: 0;
+        grid-gap: 30px;
+    }
+    .Hsport{
+        width:100%;}
+}
 .edu{
     display:contents;
     border: 2px solid rgb(247, 143, 131);
@@ -362,6 +371,19 @@
 }
 .Cimg{
     width: 13%;
+}
+@media screen and (max-width:768px){
+    .CONTACTME{
+        display: inline;
+    }
+    .Csocial{
+        background-color: black;
+        width: 100%;
+        padding: 13%;
+    }
+    .cimg{
+        width: 30%;
+    }
 }
 
 
