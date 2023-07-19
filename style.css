@@ -3,21 +3,32 @@
     background-color:black;
     height: 18%;
     padding: 0.1%;
+    background-attachment: fixed;
+    background-position: center;
 }
 .logo{ 
     width: 30%;
+    position: absolute;
+    top:0;
+    left: 3%;
 
 }
 .namelogo{
     width: 40%;
 
 }
+.start{
+    width: 100%;
+   
+}
 .navlink{
-    position: relative;
+   position: absolute;
     padding-top:5%;
     padding-left:8%;
     width: 70%;
     justify-content: space-between;
+    top: 0;
+    left: 30%;
 }
 .navlink a { color: rgb(0, 140, 255);
     padding: 2%;
