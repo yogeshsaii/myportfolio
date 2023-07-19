@@ -217,26 +217,32 @@
     grid-gap:12%;
 }
 @keyframes slideinleft{
-    from{
-        transform: translateX(300px);
+    0%{
+        transform: translateX(200px);
     }
-    to{
-        transform: translateX(0);
+    50%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(200px);
     }
 }
 @keyframes slideinright{
-    from{
-        transform: translateX(-300px);
+    0%{
+        transform: translateX(-200px);
     }
-    to{
-        transform: translateX(0);
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(-200px);
     }
 }
 .LIimg{
     width:10%;
     animation-name: slideinleft;
-    animation-duration: 5s;
-    animation-timing-function: linear;
+   animation-duration: 10s;
+    animation-timing-function:ease-in-out;
     animation-delay: 2s;
     animation-iteration-count: infinite;
     transform: translate(150px);
@@ -244,8 +250,8 @@
 .LIimg1{
     width:10%;
     animation-name: slideinright;
-    animation-duration: 5s;
-    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-timing-function:ease-in-out;
     animation-delay: 2s;
     animation-iteration-count: infinite;
     transform: translate(-150px);
