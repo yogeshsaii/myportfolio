@@ -116,6 +116,10 @@
     .start{
         height: 600px;
     }
+    .hname{
+        font-size: 28px;
+        left: 40%;
+    }
 }
 .Hobbies{
     background-color: rgb(13, 15, 24);
