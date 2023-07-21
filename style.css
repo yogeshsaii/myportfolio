@@ -39,6 +39,8 @@
 .navlink a:hover{
     color: white;
     text-decoration: none; 
+    background-color:rgb(0, 140, 255) ;
+    border-radius: 2rem;
 
 }
 .body{
