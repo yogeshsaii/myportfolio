@@ -107,7 +107,7 @@
     transform: rotate(0deg);
   
 }
-@media screen and (max-width:1388px) {
+@media screen and (max-width:768px) {
     
     .personalinfo{
       top:5%;
@@ -226,7 +226,6 @@
     }
     .udemy img{
         padding: 10%;
-        width:100%;
         padding: 0;
     }
     .udemy img{
