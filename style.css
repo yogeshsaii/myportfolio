@@ -631,3 +631,45 @@
         width: 100%;
     }
 }
+.footer{
+    width: 90%;
+    height: max-content;
+    background-color: black;
+    display: flex;
+    align-items: left;
+    justify-content: left; 
+    
+}
+form{
+    background:black;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90% ;
+    border-radius: 10px;
+    border-color: #fff;
+}
+@media screen and (max-width:768px) {
+    form{
+        margin-left: 8%;
+    }
+}
+form input, form textarea{
+    padding: 20px;
+    outline:2px #fff;
+    background: black;
+    font-size: 16px;
+    color: #ddd;
+
+}
+form button{
+    padding: 15px;
+    background:rgb(255, 153, 0);
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
