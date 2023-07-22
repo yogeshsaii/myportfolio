@@ -673,3 +673,78 @@ form button{
     margin: 20px auto 0;
     border-radius: 10px;
 }
+@media screen and (max-width:360px) {
+    .body{
+        overflow-x: hidden;
+    }
+    .logo{
+        width: 70%;
+    }
+    .navlink{
+        width: 70%;
+        top: 20px;
+    }
+    .navlink a{
+        font-size: 14px;
+    }
+    .navlinks{
+         
+        display: none;
+    }
+    .para{
+        background-image: none;
+        min-height: 0;
+    }
+    .personalinfosec{
+        display: inline;
+        height: 400px;
+    }
+    .personalinfo{
+        position: relative;
+        font-size: 17px;
+        top:200px;
+        left: 14%;
+        height: 400px;
+        width: 73%;
+    }
+    .myimage{
+        padding: 5%;
+    }
+    .img{
+        clip-path: none;
+        width: 50%;
+        position: absolute;
+        top: 12%;
+        left: 25%;
+    }
+    .hname{
+        left: 28%;
+    }
+    .udemy img{
+        width: 75%;
+    }
+    .Cnames{
+        font-size: 23px;
+    }
+    .Cimg{
+        width: 20%;
+    }
+    .edu h2{
+        font-size: 21px;
+    }
+    .edu ul li{
+        font-size: 18px;
+    }
+    .Snames{
+        font-size: 18px;
+    }
+    .virtual ul{
+        font-size: 17px;
+    }
+    .webd ul{
+        font-size: 17px;
+    }
+    .Pclass ul li{
+        font-size: 16px;
+    }       
+  }
