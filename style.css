@@ -718,7 +718,8 @@ form button{
         left: 25%;
     }
     .hname{
-        left: 28%;
+        left:28%;
+        font-size: 28px;
     }
     .udemy img{
         width: 75%;
