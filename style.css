@@ -107,7 +107,7 @@
     transform: rotate(0deg);
   
 }
-@media screen and (max-width:768px) {
+@media screen (min-width:360px) and (max-width:768px) {
     
     .personalinfo{
       top:5%;
@@ -707,6 +707,9 @@ form button{
         height: 400px;
         width: 73%;
     }
+    .start{
+        height: 600px;
+    }
     .myimage{
         padding: 5%;
     }
@@ -719,7 +722,13 @@ form button{
     }
     .hname{
         left:28%;
-        font-size: 28px;
+        font-size: 23px;
+    }
+    .thead{
+        font-size:21px;
+    }
+    .td{
+        font-size:19px;
     }
     .udemy img{
         width: 75%;
