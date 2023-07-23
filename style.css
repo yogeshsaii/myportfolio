@@ -60,7 +60,8 @@
 .hname{
     animation-name: slideinright;
     color: rgb(252, 249, 249);
-    padding-left: 43%;
+    position: relative;
+    left:43%
 }
 .personalinfosec{
 /*     background-image: url(./assets/personal5.png); */
@@ -117,8 +118,7 @@
         height: 600px;
     }
     .hname{
-        font-size: 28px;
-        left: 40%;
+        left:38%;
     }
 }
 .Hobbies{
