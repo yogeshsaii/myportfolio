@@ -6,20 +6,29 @@
     background-attachment: fixed;
     background-position: center;
 }
+.navbarimg{
+    display: flex;
+}
 .logo{ 
-    width: 30%;
+    width: 28%;
     position: absolute;
-    top:0;
-    left: 3%;
-
+    top:6.2%;
+    left: 1%;
 }
 .namelogo{
     width: 40%;
 
 }
 .start{
-    width: 100%;
-   
+    width: 50%;
+}
+.scroll{
+    position: absolute;
+    top: 95%;
+    left: 80%;
+}
+.scroll p{
+    color: #fff;
 }
 .navlink{
    position: absolute;
@@ -684,7 +693,15 @@ form button{
         overflow-x: hidden;
     }
     .logo{
-        width: 70%;
+        width: 56%;
+        top: 3.5%;
+        left: 2%;
+    }
+    .navbarimg{
+        display:inline;
+    }
+    .navbarimg img{
+        width: 100%;
     }
     .navlink{
         width: 70%;
@@ -693,8 +710,7 @@ form button{
     .navlink a{
         font-size: 14px;
     }
-    .navlinks{
-         
+    .navlinks{ 
         display: none;
     }
     .parallax4{
@@ -704,6 +720,7 @@ form button{
     .personalinfosec{
         display: inline;
         height: 400px;
+        width:100;
     }
     .personalinfo{
         position: relative;
