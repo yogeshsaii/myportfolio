@@ -70,7 +70,7 @@
     animation-name: slideinright;
     color: rgb(252, 249, 249);
     position: relative;
-    left:43%
+    text-align: center;
 }
 .hname2{
     animation-name: slideinright;
