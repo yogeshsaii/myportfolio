@@ -32,6 +32,7 @@
 }
 .navlink{
    position: absolute;
+    grid-gap:15px;
     padding-top:3%;
     padding-left:30%;
     width: 70%;
