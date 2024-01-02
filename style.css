@@ -41,7 +41,7 @@
 }
 .navlink a { color: rgb(0, 140, 255);
     padding: 2%;
-    font-size: large;
+    font-size: larger;
     width: 20%;
     text-decoration:none;
 }
